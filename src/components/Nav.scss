@@ -1,0 +1,49 @@
+menu {
+  display:grid;
+  grid-template-columns: 200px 1fr 250px;
+  grid-template-rows: 120px 40px;
+  min-height: 10vh;
+  padding:1rem;
+}
+
+ul {
+  grid-column: 3/4;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  padding:8px;
+  margin:0;
+
+}
+
+li{
+  display:flex;
+  
+
+}
+
+
+
+h4{
+  padding:0;
+  margin:0;
+  font-size: 1rem;;
+  font-family: 'Poppins' ,sans-serif;
+}
+
+img {
+  width:80px;
+  padding:8px;
+}
+button {
+  grid-column:3/4;
+  margin:8px;
+  cursor:pointer;
+  background-color: black;
+  color:white;
+  border:none;
+  width:88px;
+  height:38px;
+  border-radius: 10px;;
+}

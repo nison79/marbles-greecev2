@@ -1,17 +1,23 @@
 module.exports = {
   siteMetadata: {
     title: "marbles-greece",
+    description: "The place you find and meet the best marble producers in greece ",
+    author: "George Nikoglou",
+    heading: "The Material That Highlights Beauty For Centuries."
+
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Avenir Condensed:200,400,700,800', 'Poppins Condensed:200,400,500,600,700,800']
+        }
+      }
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "",
-      },
-    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
@@ -25,20 +31,25 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
-      __key: "images",
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
       },
-      __key: "pages",
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts`,
+      },
     },
   ],
 };

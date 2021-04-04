@@ -1,0 +1,24 @@
+.header-wrapper  {
+  min-height: 50vh;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  place-items: center;
+}
+
+main  {
+  justify-self: center;
+  h1 {
+    font-family: 'Poppins';
+    font-size: 5rem;
+  }
+}
+
+article {
+  justify-self:center;
+  align-items: center;
+  button{
+    width:150px;
+    height:70px;
+    
+  }
+}
