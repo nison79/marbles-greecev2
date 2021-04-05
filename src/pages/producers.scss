@@ -1,0 +1,21 @@
+main {
+  display:grid;
+  grid-template-columns: 1fr ;
+  padding:2rem;
+}
+
+.producer-info-box {
+  font-family: 'Poppins' ,sans-serif;
+  display:grid;
+  grid-template-columns: 1fr;
+  padding-bottom:6rem;
+  h2 {
+    padding-bottom:2rem;
+    font-size:1.8rem;
+  }
+  .info {
+    font-size: 1.3rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  }
+}
