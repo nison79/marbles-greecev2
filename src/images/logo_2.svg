@@ -4,10 +4,10 @@
     <g transform="matrix(1,0,0,1,-87,-45)">
         <g>
             <g transform="matrix(1.31617,0,0,1.31617,-105.424,-74.7554)">
-                <text x="219px" y="524px" style="font-family:'HelveticaNeue-CondensedBlack', 'Helvetica Neue';font-weight:900;font-stretch:condensed;font-size:524.913px;">MG</text>
+                <text x="219px" y="524px" style="font-family:'HelveticaNeue-CondensedBlack', 'Helvetica Neue';font-weight:900;font-stretch:condensed;font-size:524.913px;fill:rgb(0,98,223);">MG</text>
             </g>
             <g transform="matrix(1.90797,0,0,1.90797,-1203.66,-403.086)">
-                <text x="688px" y="608px" style="font-family:'HelveticaNowDisplay-XBlk', 'Helvetica Now Display', sans-serif;font-weight:950;font-size:58.634px;">M<tspan x="741.591px 785.508px " y="608px 608px ">AR</tspan>BLE<tspan x="940.595px 982.049px 1003.45px " y="608px 608px 608px ">S-G</tspan>REECE</text>
+                <text x="688px" y="608px" style="font-family:'HelveticaNowDisplay-XBlk', 'Helvetica Now Display', sans-serif;font-weight:950;font-size:58.634px;fill:rgb(0,98,223);">M<tspan x="741.591px 785.508px " y="608px 608px ">AR</tspan>BLE<tspan x="940.595px 982.049px 1003.45px " y="608px 608px 608px ">S-G</tspan>REECE</text>
             </g>
         </g>
     </g>

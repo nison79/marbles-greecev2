@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, Link , useStaticQuery } from 'gatsby'
+import {  Link } from 'gatsby'
 import './Nav.scss'
 import SVG from '../images/logo_2.svg'
 
@@ -28,7 +28,7 @@ const Nav = () => {
               <h4>marbles-greece</h4>
             </li>
             <li>
-              <h4>producers</h4>
+              <Link to="/producers"><h4>producers</h4></Link>
             </li>
             <li>
               <h4>contact</h4>
