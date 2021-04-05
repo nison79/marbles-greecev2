@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Link } from 'gatsby'
+import { Link } from 'gatsby'
 import './Nav.scss'
 import SVG from '../images/logo_2.svg'
 
@@ -22,7 +22,7 @@ const Nav = () => {
   return (
     <div>
       <menu>
-        <img src={SVG} alt="logo"/>
+        <Link to="/"><img src={SVG} alt="logo"/></Link>
           <ul>
             <li>
               <h4>marbles-greece</h4>

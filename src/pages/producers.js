@@ -20,7 +20,7 @@ const producers = ( { data }) => {
               <h5>Established: {producer.node.frontmatter.established}</h5>
               <h5>Website: <a add target="_blank" rel="noopener noreferrer" href={producer.node.frontmatter.website}>{producer.node.frontmatter.website}</a></h5>
             </div>
-            <div className="div-products">
+            <div className="products">
             <h5> Main Products: {producer.node.frontmatter.products}</h5>
             </div>
           </div>
