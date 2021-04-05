@@ -4,18 +4,18 @@ import './Nav.scss'
 import SVG from '../images/logo.svg'
 
 const Nav = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          author
-          description
-          title
-          heading
-      }
-    }
-  }
-`)
+//   const data = useStaticQuery(graphql`
+//     query {
+//       site {
+//         siteMetadata {
+//           author
+//           description
+//           title
+//           heading
+//       }
+//     }
+//   }
+// `)
 
 
 

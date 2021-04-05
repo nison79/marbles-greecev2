@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, Link ,useStaticQuery } from 'gatsby'
+import Img from '../images/bg3.jpg'
 
 import './Header.scss'
 

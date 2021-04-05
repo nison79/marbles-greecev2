@@ -1,16 +1,17 @@
 menu {
   display:grid;
   grid-template-columns: 200px 1fr 250px;
-  grid-template-rows: 120px 40px;
+  grid-template-rows: 120px;
   min-height: 10vh;
   padding:1rem;
+  padding-bottom:0rem;
 }
 
 ul {
   grid-column: 3/4;
   display:flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-self: end;
   list-style: none;
   padding:8px;
   margin:0;
