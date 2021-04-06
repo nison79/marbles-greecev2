@@ -1,21 +1,33 @@
 main {
   display:grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr 1fr ;
+  column-gap: 1rem;
+  row-gap: 1rem;;
   padding:2rem;
+  justify-self: center;
+  box-shadow: 0px -2px 20px -6px rgba(68, 112, 255, 0.52);
 }
 
 .producer-info-box {
   font-family: 'Poppins' ,sans-serif;
   display:grid;
   grid-template-columns: 1fr;
-  padding-bottom:6rem;
+  
+  grid-template-rows: 50px 100px 1fr 50px;
+  place-items: center;
+  padding-bottom:3rem;
+  border: 1px solid;
+  
+
   h2 {
-    padding-bottom:2rem;
-    font-size:1.8rem;
+    padding:1rem;
+    font-size:1rem;
+    text-transform: uppercase;
   }
   .info {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-top:1rem;
+    padding-right:1rem;
     padding-bottom:1rem;
   }
 }

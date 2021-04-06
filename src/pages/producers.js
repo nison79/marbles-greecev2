@@ -20,9 +20,6 @@ const producers = ( { data }) => {
               <h5>Established: {producer.node.frontmatter.established}</h5>
               <h5>Website: <a add target="_blank" rel="noopener noreferrer" href={producer.node.frontmatter.website}>{producer.node.frontmatter.website}</a></h5>
             </div>
-            <div className="products">
-            <h5> Main Products: {producer.node.frontmatter.products}</h5>
-            </div>
           </div>
         
       ))}
@@ -43,8 +40,9 @@ query MyQuery {
             childImageSharp {
               gatsbyImageData(
                 layout: FIXED
-                webpOptions: {quality: 50}
-                quality: 80
+                webpOptions: {quality: 100}
+                quality: 100
+                width:130
                 blurredOptions: {}
               )
             }
