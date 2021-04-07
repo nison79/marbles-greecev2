@@ -14,12 +14,13 @@ const producers = ( { data }) => {
             <h2>{producer.node.frontmatter.name}</h2>
             <GatsbyImage image={producer.node.frontmatter.logo.childImageSharp.gatsbyImageData} alt={producer.node.frontmatter.name} /> 
             <div className="info">
-              <h5>Address: {producer.node.frontmatter.address}</h5>
-              <h5>Email: {producer.node.frontmatter.email}</h5>
-              <h5>Phone:{producer.node.frontmatter.phone}</h5>
-              <h5>Country: {producer.node.frontmatter.country}</h5>
-              <h5>Established: {producer.node.frontmatter.established}</h5>
-              <h5>Website: <a add target="_blank" rel="noopener noreferrer" href={producer.node.frontmatter.website}>{producer.node.frontmatter.website}</a></h5>
+              <h5><span>Address:</span> {producer.node.frontmatter.address}</h5>
+              <h5><span>Email:</span> {producer.node.frontmatter.email}</h5>
+              <h5><span>Phone:</span> {producer.node.frontmatter.phone}</h5>
+              <h5><span>Country:</span> {producer.node.frontmatter.country}</h5>
+              <h5><span>City :</span> {producer.node.frontmatter.city}</h5>
+              <h5><span>Established:</span>{producer.node.frontmatter.established}</h5>
+              <h5><span>Website:</span> <a add target="_blank" rel="noopener noreferrer" href={producer.node.frontmatter.website}>{producer.node.frontmatter.website}</a></h5>
             </div>
           </div>
         
