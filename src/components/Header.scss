@@ -1,8 +1,8 @@
 .header-wrapper  {
   min-height: 100vh;
+  
   display: grid;
-  grid-template-columns: 3fr 1fr 200px;
-  place-items: center;
+  grid-template-columns: 1fr;
   background-image: url('../images/bg3.jpg');
   background-repeat: no-repeat;
   background-size: cover;  
@@ -10,7 +10,8 @@
   background-position: center center;
 }
 
-main  {
+.main-wrapper  {
+  max-width: 100%;;
   justify-self: center ;
   h1 {
     font-family: 'Poppins';

@@ -1,13 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import { GatsbyImage , getImage } from 'gatsby-plugin-image'
+import { GatsbyImage} from 'gatsby-plugin-image'
 
 import './producers.scss'
 
 const producers = ( { data }) => {
   return (
     <Layout>
+      <div className="page-wrapper">
       {data.allMdx.edges.map( producer => (
           <div key = {producer.node.frontmatter.name} className="producer-info-box">
             <h2>{producer.node.frontmatter.name}</h2>
@@ -23,7 +24,9 @@ const producers = ( { data }) => {
           </div>
         
       ))}
+      </div>
     </Layout>
+    
   )
 }
 
@@ -42,8 +45,8 @@ query MyQuery {
                 layout: FIXED
                 webpOptions: {quality: 100}
                 quality: 100
-                width:130
-                blurredOptions: {}
+                placeholder: BLURRED
+              
               )
             }
           }
