@@ -1,10 +1,10 @@
 .page-wrapper {
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 600px));
+  justify-items: center;;
   column-gap: 3rem;
   row-gap: 3rem;
-  padding:5rem;
+  padding:2rem;
   
 }
 @media(max-width:501px) {
@@ -32,11 +32,16 @@
     padding-top:1rem;
     padding-left:1rem;
     padding-bottom:2rem;
-    span{
-      padding-right: 0.4rem;
-      color:#575757;
+    img{
+      display:inline;
+      width:40px;
     }
-    h5{
+    span {
+      margin-top:0.4rem;
+    }
+    h5 {
+      display:flex;
+      align-items: center;;
       color:#0062DF
     }
     a {
